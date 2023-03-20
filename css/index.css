@@ -2,7 +2,7 @@ body {
     font-family: calibri;
     background-color: rgb(190, 220, 248);
     color: rgb(32,42,68);
-    width: 700px;
+    width: 700px; /*Set HTML Body Width*/
     margin: auto;
 }
 
