@@ -101,6 +101,7 @@ function calculateBMI() {
 
     // Display or hide the results page
     document.getElementById("results").style.display = "block";
+    document.getElementById("calculator").style.display = "none";
     if (bmi < 30) {
         document.getElementById("obese-only").style.display = "none";
     } else {
