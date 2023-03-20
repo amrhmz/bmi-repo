@@ -1,0 +1,194 @@
+body {
+    font-family: calibri;
+    background-color: rgb(190, 220, 248);
+    color: rgb(32,42,68);
+    width: 700px;
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(83, 154, 196);
+    padding: 1em 2em;
+    font-family: 'DM Sans', sans-serif;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+.form-group-g {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"]{
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: white;
+    padding-top: 5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.fa-solid.fa-mars {
+    color: blue;
+}
+
+.fa-solid.fa-venus {
+    color: rgb(255, 62, 62);
+}
+
+.icon-input {
+    display: flex;
+    align-items: center;
+}
+
+.icon-input i {
+    margin-right: 7px;
+    color: white;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+#calculate {
+    border: 0px solid #f5e507;
+    background-color: #f5e507;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#calculate:hover {
+    background-color: #555;
+    color: #fff;
+}
+  
+#reset {
+    border: 0px solid #bebebe;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#static-desc {
+    text-align: justify;
+}
+
+.font-big {
+    font-size: 150%;
+}
+
+.font-desc {
+    font-size: 110%;
+}
+
+/* below is for page 2 only */
+
+.card-1 {
+    background-color: rgb(83, 154, 196);
+    padding: 2em;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#download {
+    border: 0px solid #f5e507;
+    background-color: #f5e507;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#download:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#consultation {
+    border: 0px solid #f5e507;
+    background-color: #f5e507;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#consultation:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#registration {
+    border: 0px solid #f5e507;
+    background-color: #f5e507;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#registration:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.card-2 {
+    background-color: rgb(83, 154, 196);
+    padding: 2em;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#results {
+    display: none;
+}
+
+#download-me {
+    text-align: center;
+}
+
+.playstore {
+    width: 250px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.appstore {
+    margin-bottom: 15px;
+    width: 200px;
+    height: auto;
+}
