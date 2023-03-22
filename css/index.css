@@ -138,6 +138,14 @@ input[type="number"]{
     text-align: center;
 }
 
+#bmi-category-3 {
+    text-align: justify;
+}
+
+#bmi-category-4 {
+    text-align: justify;
+}
+
 #download {
     border: 0px solid #f5e507;
     background-color: #f5e507;
