@@ -37,12 +37,18 @@ label {
 
 .form-group-g {
     margin-bottom: 20px;
+    color: white;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    color: white;
+}
+
+.form-group-1 {
+    color: white;
 }
 
 label {
@@ -80,8 +86,8 @@ input[type="number"]{
 }
 
 #calculate {
-    border: 0px solid #f5e507;
-    background-color: #f5e507;
+    border: 0px solid #ffd44c;
+    background-color: #ffd44c;
     opacity: 0.9;
     border-radius: 5px;
     padding: 10px 10px;
@@ -147,8 +153,8 @@ input[type="number"]{
 }
 
 #download {
-    border: 0px solid #f5e507;
-    background-color: #f5e507;
+    border: 0px solid #ffd44c;
+    background-color: #ffd44c;
     opacity: 0.9;
     border-radius: 5px;
     padding: 10px 10px;
@@ -164,8 +170,8 @@ input[type="number"]{
 }
 
 #consultation {
-    border: 0px solid #f5e507;
-    background-color: #f5e507;
+    border: 0px solid #ffd44c;
+    background-color: #ffd44c;
     opacity: 0.9;
     border-radius: 5px;
     padding: 10px 10px;
@@ -181,8 +187,8 @@ input[type="number"]{
 }
 
 #registration {
-    border: 0px solid #f5e507;
-    background-color: #f5e507;
+    border: 0px solid #ffd44c;
+    background-color: #ffd44c;
     opacity: 0.9;
     border-radius: 5px;
     padding: 10px 10px;
