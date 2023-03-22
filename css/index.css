@@ -5,6 +5,8 @@ body {
     background-size: cover;
     /* font-family: calibri; */
     font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9rem;
+    font-variant: small-caps;
     /* background-color: rgb(190, 220, 248); */
     color: rgb(32,42,68);
     width: 700px; /*Set HTML Body Width*/
