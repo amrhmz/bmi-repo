@@ -13,8 +13,8 @@ form.addEventListener("submit", function(event) {
         text: "You want to calculate BMI with the entered data?",
         icon: 'warning',
         showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
+        confirmButtonColor: '#ffd44c',
+        cancelButtonColor: '#bebebe',
         confirmButtonText: 'Calculate'
       }).then((result) => {
         if (result.isConfirmed) {
