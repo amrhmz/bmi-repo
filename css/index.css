@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
 
 body {
-    background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg");
+    background-image: url("file:///C:/Users/AM-H/Documents/GitHub/bmi-repo/assets/images/background.jpg");
     background-size: cover;
     /* font-family: calibri; */
     font-family: 'Noto Sans', sans-serif;
@@ -14,7 +14,8 @@ body {
 .card {
     border: 0px solid;
     border-radius: 7px;
-    background-color: rgb(83, 154, 196, 0.6);
+    /* background-color: rgb(83, 154, 196, 0.6); */
+    background-color: rgb(60, 126, 126, 0.6);
     padding: 1em 2em;
     /* font-family: 'DM Sans', sans-serif; */
 }
