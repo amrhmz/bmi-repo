@@ -23,25 +23,25 @@ form.addEventListener("submit", function(event) {
       });
 });
 
-// Validate form input using sweet alert
+// Validate form input using sweet alert for styling
 function validateForm() {
     let weight = parseFloat(weightInput.value)
     let height = parseFloat(heightInput.value)
     let age = parseFloat(ageInput.value)
     
-    if (weight < 0 || weight > 200) {
+    if (isNaN(weight) || weight < 0 || weight > 200) {
         Swal.fire(
             'Oops!',
             'Please enter a valid weight',
             'warning'
         );
-    } else if (height < 0 || height > 300) {
+    } else if (isNaN(height) || height < 0 || height > 300) {
         Swal.fire(
             'Oops!',
             'Please enter a valid height',
             'warning'
         );
-    } else if (age < 0 || age > 150) {
+    } else if (isNaN(age) || age < 0 || age > 150) {
         Swal.fire(
             'Oops!',
             'Please enter a valid age',
