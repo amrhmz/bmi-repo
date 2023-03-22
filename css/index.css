@@ -1,3 +1,4 @@
+/* Import fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
 
 /* For mobile phones: */
@@ -133,7 +134,7 @@ input[type="number"]{
     text-shadow: 1px 1px #c2c2c2
 }
 
-/* below is for page 2 only */
+/* below is for second page only */
 
 .card-1 {
     border: 0px solid;
