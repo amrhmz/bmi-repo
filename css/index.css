@@ -5,7 +5,7 @@ body {
     background-size: cover;
     /* font-family: calibri; */
     font-family: 'Noto Sans', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     font-variant: small-caps;
     /* background-color: rgb(190, 220, 248); */
     color: rgb(32,42,68);
@@ -112,10 +112,12 @@ input[type="number"]{
 
 .font-big {
     font-size: 150%;
+    text-shadow: 1px 1px #c2c2c2
 }
 
 .font-desc {
     font-size: 95%;
+    text-shadow: 1px 1px #c2c2c2
 }
 
 /* below is for page 2 only */
