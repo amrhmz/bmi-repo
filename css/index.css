@@ -1,29 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
 
-/* Styles for mobile screens */
+/* For mobile phones: */
 @media only screen and (max-width: 767px) {
     body {
       width: 100%;
     }
 }
   
-  /* Styles for larger screens */
-  @media only screen and (min-width: 768px) {
+/* For desktop: */
+@media only screen and (min-width: 768px) {
     body {
-      width: 700px;
+        width: 700px;
     }
 }
 
 body {
     background-image: url('../assets/images/background.jpg');
     background-size: cover;
-    /* font-family: calibri; */
     font-family: 'Noto Sans', sans-serif;
     font-size: 0.92rem;
     font-variant: small-caps;
-    /* background-color: rgb(190, 220, 248); */
     color: rgb(32,42,68);
-    /* width: 700px; Set HTML Body Width */
     margin: auto;
 }
 
@@ -32,7 +29,6 @@ body {
     border-radius: 7px;
     background-color: rgb(60, 126, 126, 0.6);
     padding: 1em 2em;
-    /* font-family: 'DM Sans', sans-serif; */
 }
 
 label {
@@ -59,7 +55,6 @@ input[type="number"]{
     border-width: 1px;
     border-color: white;
     padding-top: 5px;
-    /* font-family: 'DM Sans', sans-serif; */
 }
 
 .fa-solid.fa-mars {
@@ -109,7 +104,6 @@ input[type="number"]{
     border-radius: 5px;
     padding: 10px 10px;
     font-weight: bold;
-    /* font-family: 'DM Sans', sans-serif; */
     font-size: 90%;
     color: black;
     cursor: pointer;
@@ -142,7 +136,6 @@ input[type="number"]{
     background-color: rgb(60, 126, 126, 0.6);
     padding: 2em;
     text-align: center;
-    /* font-family: 'DM Sans', sans-serif; */
 }
 
 #download {
@@ -152,7 +145,6 @@ input[type="number"]{
     border-radius: 5px;
     padding: 10px 10px;
     font-weight: bold;
-    /* font-family: 'DM Sans', sans-serif; */
     font-size: 90%;
     color: black;
     cursor: pointer;
@@ -170,7 +162,6 @@ input[type="number"]{
     border-radius: 5px;
     padding: 10px 10px;
     font-weight: bold;
-    /* font-family: 'DM Sans', sans-serif; */
     font-size: 90%;
     color: black;
     cursor: pointer;
@@ -188,7 +179,6 @@ input[type="number"]{
     border-radius: 5px;
     padding: 10px 10px;
     font-weight: bold;
-    /* font-family: 'DM Sans', sans-serif; */
     font-size: 90%;
     color: black;
     cursor: pointer;
@@ -205,7 +195,6 @@ input[type="number"]{
     background-color: rgb(60, 126, 126, 0.6);
     padding: 2em;
     text-align: center;
-    /* font-family: 'DM Sans', sans-serif; */
 }
 
 #results {
