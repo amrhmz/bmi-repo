@@ -206,13 +206,12 @@ input[type="number"]{
 }
 
 .playstore {
-    width: 250px;
+    width: 22.3%;
     height: auto;
     margin-right: 25px;
 }
 
 .appstore {
-    margin-bottom: 15px;
-    width: 200px;
+    width: 20%;
     height: auto;
 }
