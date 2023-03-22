@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
 
 body {
-    background-image: url("file:///C:/Users/AM-H/Documents/GitHub/bmi-repo/assets/images/background.jpg");
+    background-image: url('../assets/images/background.jpg');
     background-size: cover;
     /* font-family: calibri; */
     font-family: 'Noto Sans', sans-serif;
