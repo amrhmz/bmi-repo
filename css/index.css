@@ -1,20 +1,16 @@
-/* Import fonts from google fonts */
+/* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 
-/* For mobile phones: */
+/* For mobile phones screen: */
 @media only screen and (max-width: 767px) {
     body {
       width: 90%;
     }
 }
-  
-/* For desktop: */
-@media only screen and (min-width: 768px) {
-    body {
-        width: 700px;
-    }
-}
 
+/* This is styling for body */
 body {
     background-image: url('../assets/images/background.jpg');
     background-size: cover;
@@ -24,6 +20,7 @@ body {
     margin: auto;
 }
 
+/* This is styling for form border */
 .card {
     border: 0px solid;
     border-radius: 7px;
@@ -33,6 +30,7 @@ body {
 
 label {
     margin-bottom: 7px;
+    font-weight: bold;
 }
 
 .form-group-g {
@@ -51,10 +49,7 @@ label {
     color: white;
 }
 
-label {
-    font-weight: bold;
-}
-
+/* Input type box styling */
 input[type="number"]{
     border: 3px solid;
     border-radius: 3px;
@@ -85,6 +80,7 @@ input[type="number"]{
     margin-top: 30px;
 }
 
+/* Button styling */
 #calculate {
     border: 0px solid #ffd44c;
     background-color: #ffd44c;
@@ -102,7 +98,8 @@ input[type="number"]{
     background-color: #555;
     color: #fff;
 }
-  
+
+/* Button styling */
 #reset {
     border: 0px solid #bebebe;
     background-color: #f1f1f1;
@@ -134,8 +131,9 @@ input[type="number"]{
     text-shadow: 1px 1px #c2c2c2
 }
 
-/* below is for second page only */
+/* amrhmz : below styling is for results page only */
 
+/* This is styling for form border */
 .card-1 {
     border: 0px solid;
     border-radius: 7px;
@@ -152,6 +150,7 @@ input[type="number"]{
     text-align: justify;
 }
 
+/* Button styling */
 #download {
     border: 0px solid #ffd44c;
     background-color: #ffd44c;
@@ -169,6 +168,7 @@ input[type="number"]{
     color: #fff;
 }
 
+/* Button styling */
 #consultation {
     border: 0px solid #ffd44c;
     background-color: #ffd44c;
@@ -186,6 +186,7 @@ input[type="number"]{
     color: #fff;
 }
 
+/* Button styling */
 #registration {
     border: 0px solid #ffd44c;
     background-color: #ffd44c;
@@ -203,6 +204,7 @@ input[type="number"]{
     color: #fff;
 }
 
+/* This is styling for form border */
 .card-2 {
     border: 0px solid;
     border-radius: 7px;
@@ -228,4 +230,11 @@ input[type="number"]{
 .appstore {
     width: 30%;
     height: auto;
+}
+
+/* For desktop screen: */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 700px;
+    }
 }
